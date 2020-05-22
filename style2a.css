@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse; 
+}
+
+table {
+    border: 5px solid lightblue;
+   
+
+}
+thead{ 
+    text-align: center;
+    background-color: black;
+    color: dimgrey;  
+    font-size: 8px;
+}
+tbody{ 
+    text-align:left;
+    background-color: whitesmoke;
+        font-size: 8px;
+}

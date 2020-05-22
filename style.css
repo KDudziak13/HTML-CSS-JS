@@ -1,0 +1,24 @@
+#imie{
+    background: yellow;
+    border: 3px solid darkred;
+}
+#nazwisko{
+   background: yellow;
+    border: 3px solid darkred; 
+}
+#komentarz{
+    background-color: yellow;
+    border: 3px solid darkred;
+}
+#checkbox{
+    border: 3px solid darkred;
+}
+#radiobutton{
+    border: 3px solid darkred;
+   
+}
+
+select{
+    background-color: darkred;
+    color: white;
+    }

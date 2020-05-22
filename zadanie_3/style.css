@@ -1,0 +1,16 @@
+ ul li{
+    display: inline;
+     text-align: center;
+     
+  
+}
+li a{
+    background-color: darkslateblue;
+    color: white;
+    
+}
+
+
+li a:hover {
+    background-color: lightblue;
+}

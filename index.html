@@ -1,0 +1,64 @@
+<!-- wszystkie parametry dobierałam tak, żeby były jak najbardziej zbliżone wyglądem do oryginału występującego w poleceniu, jednak nie zawsze byłam w stanie znaleźć własciwe kolory lub grubości obramowań-->
+
+
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title>tyt</title>
+        
+        <script type="text/javascript" src="js/app.js"></script>
+    
+
+</head>
+  <body>
+  
+	
+       <p>Imie</p>
+<input type="text" id="imie">
+
+       <p>Nazwisko</p>
+<input type="text" id="nazwisko">
+	<fieldset id="checkbox">
+          <legend>Stan posiadania</legend>
+<label for="checkbox1">
+  <input type="checkbox" id="checkbox1" name="opcja">
+  Komórka
+</label>
+<label for="checkbox2">
+  <input type="checkbox" id="checkbox2" name="opcja">
+  Rower
+</label>
+<label for="checkbox3">
+  <input type="checkbox" id="checkbox3" name="opcja">
+  Komputer
+</label>
+      </fieldset>
+    <fieldset id="radiobutton">
+          <legend>Plec</legend>
+      <label for="radiobutton1">
+  <input type="radio" id="radiobutton1" name="opcja1">
+  kobieta
+</label>
+<label for="radiobutton2">
+  <input type="radio" id="radiobutton2" name="opcja1">
+  mezczyzna
+</label>
+    </fieldset>
+      <p>Ocena</p>
+<select>
+  <option value="dobra">dobra</option>
+  <option value="srednia">srednia</option>
+  <option value="slaba">slaba</option>
+
+</select>
+      <form>
+          <p>Napisz komentarz</p>
+      <textarea id="komentarz" rows="10" cols="30"></textarea>
+      <input type="submit">
+          <input type="reset" >
+      </form>
+      </body>
+   
+</html>
